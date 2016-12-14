@@ -1,0 +1,29 @@
+<div class="ms-Grid">
+    <div class="ms-Grid-row">
+        <div class="ms-u-md3 ms-u-sm3 ms-Grid-col ms-u-lg12">
+            <div class="ms-Grid-row">
+                <div class="ms-u-lg6 ms-u-md6 ms-u-sm6 ms-Grid-col"> <b><span style="color:green;">HCP</span></b>
+                    <component-textbox id="d96b357b-1d50-4728-d961-6f1648d35120" params="'InternalName':'Title','Title':'Title','Description':''" class=""></component-textbox>
+                </div>
+                <div class="ms-u-md3 ms-u-sm3 ms-Grid-col ms-u-lg6">
+                    <p>COMPONENT API5.1</p>
+                    <p>1. myreadonly:
+                        <input type="checkbox" data-bind="checked: myreadonly"> </p>
+                    <p>2. mydesignmode:
+                        <input type="checkbox" data-bind="checked: mydesignmode"> </p>
+                    <p>3. mytitle: <span data-bind="text: mytitle">C1</span> </p>
+                    <p>4. myruntime listName: <span data-bind="text: myruntime_listName">listHCP</span> </p>
+                    <p>4. myruntime listTitle: <span data-bind="text: myruntime_listTitle">list HCP TITLE</span> </p>
+                    <p>5. myviewmodel: <span data-bind="text: myviewmodel().Title">C1</span> </p>
+                    <p>6. mypermissions editListItems: <span data-bind="text: myuserpermissions().has(SP.PermissionKind.editListItems)">true</span> </p>
+                </div>
+            </div>
+            <div class="ms-Grid-row">
+                <div class="ms-u-md6 ms-u-sm6 ms-Grid-col ms-u-lg12">
+                    <component-buttons id="945b70a6-5791-d488-c085-5054d987f022" params="'hidden':false,'save':true,'cancel':true,'deletesubmitted':true,'moderation':'Draft','uniqueid':'Counter'" class=""></component-buttons>
+                    <component-messagebox id="10421ea5-2806-43c5-3e10-63e0b32350b8" params="'message':'COMPLETED SUCCESSFULLY. MY FORMS VIEW WILL REFLECT CHANGES WITH 5 MIN DELAY'" class=""></component-messagebox>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
